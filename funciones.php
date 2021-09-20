@@ -11,7 +11,7 @@ function ObtenerProductosArr(){
         "descripcion" => "Estantería blanco con diseño, 120 cm de alto x 48 cm de ancho y fondo de 25cm.",
         "precio" => "79990",
         "precio_old" => "119000",
-        "path" => "img/muebles/1.jpg"
+        "path" => "img\muebles\1.jpg"
     );
 
     $arr_productos[2] = array(
@@ -19,7 +19,7 @@ function ObtenerProductosArr(){
         "descripcion" => "test",
         "precio" => "100000",
         "precio_old" => "80000",
-        "path" => "img/muebles/2.jpg"
+        "path" => "img\muebles\2.jpg"
     );
 
     $arr_productos[3] = array(
@@ -27,7 +27,7 @@ function ObtenerProductosArr(){
         "descripcion" => "test",
         "precio" => "100000",
         "precio_old" => "80000",
-        "path" => "img/muebles/3.jpg"
+        "path" => "img\muebles\3.jpg"
     );
 
     $arr_productos[4] = array(
@@ -35,7 +35,7 @@ function ObtenerProductosArr(){
         "descripcion" => "test",
         "precio" => "100000",
         "precio_old" => "80000",
-        "path" => "img/muebles/4.jpg"
+        "path" => "img\muebles\4.jpg"
     );
 
     $arr_productos[5] = array(
@@ -43,7 +43,7 @@ function ObtenerProductosArr(){
         "descripcion" => "test",
         "precio" => "100000",
         "precio_old" => "80000",
-        "path" => "img/muebles/5.jpg"
+        "path" => "img\muebles\5.jpg"
     );
 
     $arr_productos[6] = array(
@@ -51,7 +51,7 @@ function ObtenerProductosArr(){
         "descripcion" => "test",
         "precio" => "100000",
         "precio_old" => "80000",
-        "path" => "img/muebles/6.jpg"
+        "path" => "img\muebles\6.jpg"
     );
 
     $arr_productos[7] = array(
@@ -59,7 +59,7 @@ function ObtenerProductosArr(){
         "descripcion" => "test",
         "precio" => "100000",
         "precio_old" => "80000",
-        "path" => "img/muebles/7.jpg"
+        "path" => "img\muebles\7.jpg"
     );
 
     $arr_productos[8] = array(
@@ -67,7 +67,7 @@ function ObtenerProductosArr(){
         "descripcion" => "test",
         "precio" => "100000",
         "precio_old" => "80000",
-        "path" => "img/muebles/8.jpg"
+        "path" => "img\muebles\8.jpg"
     );
 
     $arr_productos[9] = array(
@@ -75,7 +75,7 @@ function ObtenerProductosArr(){
         "descripcion" => "test",
         "precio" => "100000",
         "precio_old" => "80000",
-        "path" => "img/muebles/9.jpg"
+        "path" => "img\muebles\9.jpg"
     );
 
     $arr_productos[10] = array(
@@ -83,7 +83,7 @@ function ObtenerProductosArr(){
         "descripcion" => "test",
         "precio" => "100000",
         "precio_old" => "80000",
-        "path" => "img/muebles/10.jpg"
+        "path" => "img\muebles\10.jpg"
     );
 
     $arr_productos[11] = array(
@@ -91,7 +91,7 @@ function ObtenerProductosArr(){
         "descripcion" => "test",
         "precio" => "100000",
         "precio_old" => "80000",
-        "path" => "img/muebles/11.jpg"
+        "path" => "img\muebles\11.jpg"
     );
 
     $arr_productos[12] = array(
@@ -99,7 +99,7 @@ function ObtenerProductosArr(){
         "descripcion" => "test",
         "precio" => "100000",
         "precio_old" => "80000",
-        "path" => "img/muebles/12.jpg"
+        "path" => "img\muebles\12.jpg"
     );
 
     $arr_productos[13] = array(
@@ -107,7 +107,7 @@ function ObtenerProductosArr(){
         "descripcion" => "test",
         "precio" => "100000",
         "precio_old" => "80000",
-        "path" => "img/muebles/13.jpg"
+        "path" => "img\muebles\13.jpg"
     );
 
     $arr_productos[14] = array(
@@ -115,7 +115,7 @@ function ObtenerProductosArr(){
         "descripcion" => "test",
         "precio" => "100000",
         "precio_old" => "80000",
-        "path" => "img/muebles/14.jpg"
+        "path" => "img\muebles\14.jpg"
     );
 
     $arr_productos[15] = array(
@@ -123,7 +123,7 @@ function ObtenerProductosArr(){
         "descripcion" => "test",
         "precio" => "100000",
         "precio_old" => "80000",
-        "path" => "img/muebles/15.jpg"
+        "path" => "img\muebles\15.jpg"
     );
 
     $arr_productos[16] = array(
@@ -131,7 +131,7 @@ function ObtenerProductosArr(){
         "descripcion" => "test",
         "precio" => "100000",
         "precio_old" => "80000",
-        "path" => "img/muebles/16.jpg"
+        "path" => "img\muebles\16.jpg"
     );
 
     $arr_productos[17] = array(
@@ -139,7 +139,7 @@ function ObtenerProductosArr(){
         "descripcion" => "test",
         "precio" => "100000",
         "precio_old" => "80000",
-        "path" => "img/muebles/17.jpg"
+        "path" => "img\muebles\17.jpg"
     );
 
     $arr_productos[18] = array(
@@ -147,7 +147,7 @@ function ObtenerProductosArr(){
         "descripcion" => "test",
         "precio" => "100000",
         "precio_old" => "80000",
-        "path" => "img/muebles/18.jpg"
+        "path" => "img\muebles\18.jpg"
     );
 
     $arr_productos[19] = array(
@@ -155,7 +155,7 @@ function ObtenerProductosArr(){
         "descripcion" => "test",
         "precio" => "100000",
         "precio_old" => "80000",
-        "path" => "img/muebles/19.jpg"
+        "path" => "img\muebles\19.jpg"
     );
 
     $arr_productos[20] = array(
@@ -163,7 +163,7 @@ function ObtenerProductosArr(){
         "descripcion" => "test",
         "precio" => "100000",
         "precio_old" => "80000",
-        "path" => "img/muebles/20.jpg"
+        "path" => "img\muebles\20.jpg"
     );
 
     $arr_productos[21] = array(
@@ -171,7 +171,7 @@ function ObtenerProductosArr(){
         "descripcion" => "test",
         "precio" => "100000",
         "precio_old" => "80000",
-        "path" => "img/muebles/21.jpg"
+        "path" => "img\muebles\21.jpg"
     );
 
     $arr_productos[22] = array(
@@ -179,7 +179,7 @@ function ObtenerProductosArr(){
         "descripcion" => "test",
         "precio" => "100000",
         "precio_old" => "80000",
-        "path" => "img/muebles/22.jpg"
+        "path" => "img\muebles\22.jpg"
     );
 
     $arr_productos[23] = array(
@@ -187,7 +187,7 @@ function ObtenerProductosArr(){
         "descripcion" => "test",
         "precio" => "100000",
         "precio_old" => "80000",
-        "path" => "img/muebles/23.jpg"
+        "path" => "img\muebles\23.jpg"
     );
 
     $arr_productos[24] = array(
@@ -195,7 +195,7 @@ function ObtenerProductosArr(){
         "descripcion" => "test",
         "precio" => "100000",
         "precio_old" => "80000",
-        "path" => "img/muebles/24.jpg"
+        "path" => "img\muebles\24.jpg"
     );
 
     $arr_productos[25] = array(
@@ -203,7 +203,7 @@ function ObtenerProductosArr(){
         "descripcion" => "test",
         "precio" => "100000",
         "precio_old" => "80000",
-        "path" => "img/muebles/25.jpg"
+        "path" => "img\muebles\25.jpg"
     );
 
     $arr_productos[26] = array(
@@ -211,7 +211,7 @@ function ObtenerProductosArr(){
         "descripcion" => "test",
         "precio" => "100000",
         "precio_old" => "80000",
-        "path" => "img/muebles/26.jpg"
+        "path" => "img\muebles\26.jpg"
     );
 
     $arr_productos[27] = array(
@@ -219,7 +219,7 @@ function ObtenerProductosArr(){
         "descripcion" => "test",
         "precio" => "100000",
         "precio_old" => "80000",
-        "path" => "img/muebles/27.jpg"
+        "path" => "img\muebles\27.jpg"
     );
 
     $arr_productos[28] = array(
@@ -227,7 +227,7 @@ function ObtenerProductosArr(){
         "descripcion" => "test",
         "precio" => "100000",
         "precio_old" => "80000",
-        "path" => "img/muebles/28.jpg"
+        "path" => "img\muebles\28.jpg"
     );
 
     $arr_productos[29] = array(
@@ -235,7 +235,7 @@ function ObtenerProductosArr(){
         "descripcion" => "test",
         "precio" => "100000",
         "precio_old" => "80000",
-        "path" => "img/muebles/29.jpg"
+        "path" => "img\muebles\29.jpg"
     );
 
     $arr_productos[30] = array(
@@ -243,7 +243,7 @@ function ObtenerProductosArr(){
         "descripcion" => "test",
         "precio" => "100000",
         "precio_old" => "80000",
-        "path" => "img/muebles/30.jpg"
+        "path" => "img\muebles\30.jpg"
     );
 
     $arr_productos[31] = array(
@@ -251,7 +251,7 @@ function ObtenerProductosArr(){
         "descripcion" => "test",
         "precio" => "100000",
         "precio_old" => "80000",
-        "path" => "img/muebles/31.jpg"
+        "path" => "img\muebles\31.jpg"
     );
 
     $arr_productos[32] = array(
@@ -259,7 +259,7 @@ function ObtenerProductosArr(){
         "descripcion" => "test",
         "precio" => "100000",
         "precio_old" => "80000",
-        "path" => "img/muebles/32.jpg"
+        "path" => "img\muebles\32.jpg"
     );
     return $arr_productos;
 }
