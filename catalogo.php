@@ -24,7 +24,7 @@
                                             <a href="detalle_producto.php?id=<?=$id_producto?>" class="btn btn-md c-btn-grey-1 c-btn-uppercase c-btn-bold c-btn-border-1x c-btn-square">Ver más</a>
                                         </div>
                                     </div>
-                                    <div class="c-bg-img-center c-overlay-object" data-height="height" style="height: 270px; background-image: url(<?=fileBase64($producto["path"])?>);"></div>
+                                    <div class="c-bg-img-center c-overlay-object" data-height="height" style="height: 270px; background-image: url(<?=$producto["path"]?>);"></div>
                                 </div>
                                 <div class="c-info">
                                     <p class="c-title c-font-18 c-font-slim"><?=$producto["nombre"]?></p>

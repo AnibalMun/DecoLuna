@@ -44,7 +44,7 @@ $producto_arr = $arr_productos[$id];
 								</div>
 							</div>
 							<div style="text-align: center;">
-								<img src="<?=fileBase64($producto_arr["path"])?>" width="50%">
+								<img src="<?=$producto_arr["path"]?>" width="50%">
 							</div>
 						</div>
 						<div class="col-md-6">
