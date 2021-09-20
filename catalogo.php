@@ -1,100 +1,50 @@
-<?php 
-require_once("funciones.php");
-$id = (int)$_GET["id"];
-$arr_productos = ObtenerProductosArr();
-$producto_arr = $arr_productos[$id];
-?>
-
+<?php require_once("funciones.php")?>
 <!DOCTYPE html>
 <html lang="en">
     <?php require_once("01_header.php");?>
     <body class="c-layout-header-fixed c-layout-header-mobile-fixed">
         <?php require_once("02_menu.php");?>       
         <div class="c-layout-page">
-			<div style="padding: 40px;">
-			<!-- BEGIN: LAYOUT/BREADCRUMBS/BREADCRUMBS-2 -->
-			<div class="c-layout-breadcrumbs-1 c-subtitle c-fonts-uppercase c-fonts-bold c-bordered c-bordered-both">
-				<div class="container">
-					<div class="c-page-title c-pull-left">
-						<h3 class="c-font-uppercase c-font-sbold">Detalle Producto</h3>
-						<h4 class=""><?=$producto_arr["nombre"]?></h4>
-					</div>
-					<ul class="c-page-breadcrumbs c-theme-nav c-pull-right c-fonts-regular">
-						<li><a href="catalogo.php"><?=$producto_arr["nombre"]?></a></li>
-						<li>/</li>
-						<li class="c-state_active">Detalle Producto</li>												
-					</ul>
-				</div>
-			</div>
-			<!-- END: LAYOUT/BREADCRUMBS/BREADCRUMBS-2 -->
-			<div class="c-layout-sidebar-content ">
-				<div class="c-shop-product-details-2 c-opt-1">
-					<div class="row">
-						<div class="col-md-6">
-							<div class="c-product-meta">
-								<div class="c-content-title-1">
-									<h3 class="c-font-uppercase c-font-bold"><?=$producto_arr["nombre"]?></h3>
-									<div class="c-line-left"></div>
-								</div>
-								<div class="c-product-review" style="margin-bottom: 0px;">
-								</div>
-								<div class="c-product-price">$<?=number_format($producto_arr["precio"],0,",",".")?></div>
-								<div class="c-product-short-desc">
-									<?=$producto_arr["descripcion"]?>
-								</div>
-							</div>
-							<div style="text-align: center;">
-								<img src="<?=fileBase64($producto_arr["path"])?>" width="50%">
-							</div>
-						</div>
-						<div class="col-md-6">
-							<div class="c-product-meta">
-								<div class="c-content-title-1">
-									<h3 class="c-font-uppercase c-font-bold">Solicitar / Comprar</h3>
-									<div class="c-line-left"></div>
-								</div>
-								<div class="c-product-review" style="margin-bottom: 0px;">
-								<div class="c-product-add-cart c-margin-t-20">
-									<div class="row">
-										<div class="col-sm-10 col-xs-12">
-											<div class="c-input-group c-spinner">
-												<p class="c-product-meta-label c-product-margin-2 c-font-uppercase c-font-bold">Nombre:</p>
-												<input type="text" class="form-control" style="width: 100%;">
-											</div>
-										</div>
-										<div class="col-sm-10 col-xs-12">
-											<div class="c-input-group c-spinner">
-												<p class="c-product-meta-label c-product-margin-2 c-font-uppercase c-font-bold">Fono:</p>
-												<input type="text" class="form-control" style="width: 100%;">
-											</div>
-										</div>
-										<div class="col-sm-10 col-xs-12">
-											<div class="c-input-group c-spinner">
-												<p class="c-product-meta-label c-product-margin-2 c-font-uppercase c-font-bold">Correo Electrónico:</p>
-												<input type="text" class="form-control" style="width: 100%;">
-											</div>
-										</div>
-										<div class="col-sm-10 col-xs-12">
-											<div class="c-input-group c-spinner">
-												<p class="c-product-meta-label c-product-margin-2 c-font-uppercase c-font-bold">Comentario:</p>
-												<textarea name="textarea" class="form-control" rows="10" cols="10" style="width: 100%;" placeholder="Solicite este producto o envíenos sus dudas, le contactaremos"></textarea>
-											</div>
-										</div>
-										<div class="col-sm-12 col-xs-12 c-margin-t-20">
-											<button class="btn c-btn btn-lg c-font-bold c-font-white c-theme-btn c-btn-square c-font-uppercase">Solicitar</button>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			</div>
-		</div>
-            
+            <!-- BEGIN: CONTENT/SHOPS/SHOP-2-1 -->
+            <div class="c-content-box c-size-md c-overflow-hide c-bs-grid-small-space c-bg-grey-1">
+                <div class="container">
+                    <div class="c-content-title-4">
+                        <h3 class="c-font-uppercase c-center c-font-bold c-line-strike"><span class="c-bg-grey-1">Catálogo</span></h3>
+                    </div>
+                    <div class="row">
+                        <?php 
+                            $arr_productos = ObtenerProductosArr();
+                            foreach($arr_productos as $id_producto => $producto){
+                        ?>
+                        <div class="col-md-3 col-sm-6 c-margin-b-20">
+                            <div class="c-content-product-2 c-bg-white">
+                                <div class="c-content-overlay">
+                                    <div class="c-overlay-wrapper">
+                                        <div class="c-overlay-content">
+                                            <a href="detalle_producto.php?id=<?=$id_producto?>" class="btn btn-md c-btn-grey-1 c-btn-uppercase c-btn-bold c-btn-border-1x c-btn-square">Ver más</a>
+                                        </div>
+                                    </div>
+                                    <div class="c-bg-img-center c-overlay-object" data-height="height" style="height: 270px; background-image: url(<?=fileBase64($producto["path"])?>);"></div>
+                                </div>
+                                <div class="c-info">
+                                    <p class="c-title c-font-18 c-font-slim"><?=$producto["nombre"]?></p>
+                                    <p class="c-price c-font-16 c-font-slim">$<?=number_format($producto["precio"],0,",",".")?> &nbsp;
+                                        <span class="c-font-16 c-font-line-through c-font-red">$<?=number_format($producto["precio_old"],0,",",".")?></span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <?php 
+                            }
+                        ?>
+                    </div>
+                </div>
+            </div>
+            <!-- END: CONTENT/SHOPS/SHOP-2-1 -->
+        </div>    
         <!-- BEGIN: LAYOUT/FOOTERS/FOOTER-6 -->
         <footer class="c-layout-footer c-layout-footer-6 c-bg-grey-1">
+            <?php require_once("04_pre_footer.php");?>
             <?php require_once("05_footer.php");?>
         </footer>
         <!-- END: LAYOUT/FOOTERS/FOOTER-6 -->
@@ -137,7 +87,6 @@ $producto_arr = $arr_productos[$id];
         <script src="assets/base/js/components.js" type="text/javascript"></script>
         <script src="assets/base/js/components-shop.js" type="text/javascript"></script>
         <script src="assets/base/js/app.js" type="text/javascript"></script>
-		<script src="assets/plugins/zoom-master/jquery.zoom.min.js" type="text/javascript"></script>
         <script>
             $(document).ready(function()
             {

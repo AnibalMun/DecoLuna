@@ -28,22 +28,22 @@
                 <nav class="c-mega-menu c-pull-right c-mega-menu-dark c-mega-menu-dark-mobile c-fonts-uppercase c-fonts-bold">
                     <ul class="nav navbar-nav c-theme-nav">
                         <li>
-                            <a href="/decoluna" class="c-link dropdown-toggle">Inicio
+                            <a href="index.php" class="c-link dropdown-toggle">Inicio
                                 <span class="c-arrow c-toggler"></span>
                             </a>
                         </li>
                         <li class="c-menu-type-classic">
-                            <a href="javascript:;" class="c-link dropdown-toggle">Nosotros
+                            <a href="nosotros.php" class="c-link dropdown-toggle">Nosotros
                                 <span class="c-arrow c-toggler"></span>
                             </a>
                         </li>
                         <li>
-                            <a href="javascript:;" class="c-link dropdown-toggle">Catálogo
+                            <a href="catalogo.php" class="c-link dropdown-toggle">Catálogo
                                 <span class="c-arrow c-toggler"></span>
                             </a>
                         </li>
                         <li>
-                            <a href="javascript:;" class="c-link dropdown-toggle">Contacto
+                            <a href="contacto.php" class="c-link dropdown-toggle">Contacto
                                 <span class="c-arrow c-toggler"></span>
                             </a>
                         </li>                        

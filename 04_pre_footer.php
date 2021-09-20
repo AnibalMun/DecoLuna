@@ -42,8 +42,8 @@
                         <div class="c-line-left hide"></div>
                     </div>
                     <p class="c-address c-font-16"> 25, Lorem Lis Street, Orange
-                        <br/> Chile, US
-                        <br/> Whatsapp: 800 123 3456
+                        <br/> Chile, Stgo.
+                        <br/> Whatsapp: <a href="https://wa.me/+56963122411?text=Hola">+569 6312 2411</a>
                         <br/> Email:
                         <a href="mailto:contacto@decoluna.cl">
                             <span class="c-theme-color">contacto@decoluna.cl</span>
