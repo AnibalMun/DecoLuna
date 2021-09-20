@@ -304,7 +304,6 @@ function fnEncrypt1($sValue) //para get url
                 )
             ), "\0"
         ));
-
 }
 
 function fnDecrypt1($sValue) //para get url
