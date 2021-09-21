@@ -75,7 +75,7 @@ function ObtenerProductosArr(){
         "descripcion" => "test",
         "precio" => "100000",
         "precio_old" => "80000",
-        "path" => "img/muebles/9.jpg"
+        "path" => "img/muebles/9.png"
     );
 
     $arr_productos[10] = array(
