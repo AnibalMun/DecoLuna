@@ -5,9 +5,9 @@
             <div class="c-navbar-wrapper clearfix">
                 <div class="c-brand c-pull-left">
                     <a href="#" class="c-logo">
-                        <img src="img/decoluna.png" alt="DECOLUNA" class="c-desktop-logo">
-                        <img src="img/decoluna.png" alt="DECOLUNA" class="c-desktop-logo-inverse">
-                        <img src="img/decoluna.png" alt="DECOLUNA" class="c-mobile-logo"> </a>
+                        <img src="img/lunadeco.jpg" alt="LunaDeco" class="c-desktop-logo">
+                        <img src="img/lunadeco.jpg" alt="LunaDeco" class="c-desktop-logo-inverse">
+                        <img src="img/lunadeco.jpg" alt="LunaDeco" style="width:180px" class="c-mobile-logo"> </a>
                     <button class="c-hor-nav-toggler" type="button" data-target=".c-mega-menu">
                         <span class="c-line"></span>
                         <span class="c-line"></span>
@@ -32,16 +32,16 @@
                                 <span class="c-arrow c-toggler"></span>
                             </a>
                         </li>
-                        <li class="c-menu-type-classic">
-                            <a href="nosotros.php" class="c-link dropdown-toggle">Nosotros
-                                <span class="c-arrow c-toggler"></span>
-                            </a>
-                        </li>
                         <li>
                             <a href="catalogo.php" class="c-link dropdown-toggle">Catálogo
                                 <span class="c-arrow c-toggler"></span>
                             </a>
                         </li>
+                        <li class="c-menu-type-classic">
+                            <a href="nosotros.php" class="c-link dropdown-toggle">Nosotros
+                                <span class="c-arrow c-toggler"></span>
+                            </a>
+                        </li>                        
                         <li>
                             <a href="contacto.php" class="c-link dropdown-toggle">Contacto
                                 <span class="c-arrow c-toggler"></span>

@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6 col-sm-12 c-col">
-                <p class="c-copyright c-font-grey">2021 &copy; DecoLuna
+                <p class="c-copyright c-font-grey">2021 &copy; LunaDeco
                     <span class="c-font-grey-3">Todos los derechos reservados.</span>
                 </p>
             </div>

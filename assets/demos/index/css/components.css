@@ -3162,12 +3162,15 @@ h1 {
       position: relative;
       padding: 0 100px; }
   .c-layout-header .c-brand {
-    margin: 40px 0 37px 0; }
+    margin: 30px 0 37px 0; }
     .c-layout-header .c-brand .c-desktop-logo-inverse {
+      width: 180px;
       display: none; }
     .c-layout-header .c-brand .c-desktop-logo {
+      width: 230px;
       display: inline-block; }
     .c-layout-header .c-brand .c-mobile-logo {
+      width: 180px;
       display: none; }
   .c-layout-header .c-quick-search > .form-control {
     padding: 10px 0;

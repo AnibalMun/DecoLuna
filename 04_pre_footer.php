@@ -25,7 +25,7 @@
                         <h3 class="c-title c-font-uppercase c-font-bold">Nosotros</h3>
                         <div class="c-line-left hide"></div>
                     </div>
-                    <p class="c-address c-font-16">DecoLuna fue creada con el objetivo de comercializar en el mercado nacional productos de decoración, artículos de peltre, poliresina, muebles, textiles y todo tipo de implementos decorativos para el hogar, provenientes principalmente de China, Indonesia, Malasia e India.
+                    <p class="c-address c-font-16">LunaDeco fue creada con el objetivo de comercializar en el mercado nacional productos de decoración, artículos de peltre, poliresina, muebles, textiles y todo tipo de implementos decorativos para el hogar, provenientes principalmente de China, Indonesia, Malasia e India.
                     </p>
                 </div>
                 <div class="col-md-5 col-sm-6 col-xs-12">
@@ -41,12 +41,12 @@
                         <h3 class="c-title c-font-uppercase c-font-bold">Contáctanos</h3>
                         <div class="c-line-left hide"></div>
                     </div>
-                    <p class="c-address c-font-16"> 25, Lorem Lis Street, Orange
-                        <br/> Chile, Stgo.
+                    <p class="c-address c-font-16"> <!--25, Lorem Lis Street, Orange
+                        <br/> Chile, Stgo.-->
                         <br/> Whatsapp: <a href="https://wa.me/+56963122411?text=Hola">+569 6312 2411</a>
                         <br/> Email:
-                        <a href="mailto:contacto@decoluna.cl">
-                            <span class="c-theme-color">contacto@decoluna.cl</span>
+                        <a href="mailto:contacto@lunadeco.cl">
+                            <span class="c-theme-color">contacto@lunadeco.cl</span>
                         </a>
                     </p>
                 </div>

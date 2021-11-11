@@ -1,6 +1,6 @@
 <head>
     <meta charset="utf-8" />
-    <title>Deco Luna</title>
+    <title>Luna Deco</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta http-equiv="Content-type" content="text/html; charset=utf-8">
@@ -33,5 +33,17 @@
     <link href="assets/demos/index/css/themes/default.css" rel="stylesheet" id="style_theme" type="text/css" />
     <link href="assets/demos/index/css/custom.css" rel="stylesheet" type="text/css" />
     <!-- END THEME STYLES -->
-    <link rel="shortcut icon" href="favicon.ico" /> 
+    <link rel="shortcut icon" href="img/lundeco2.ico" />
 </head>
+<script>
+function validarEmail(email) {
+	expr = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+	if ( !expr.test(email) ){
+		$('.val_correo').val("");
+		$('.val_correo').focus();
+		alert("Correo Electrónico No válido");
+	}
+}
+	
+function M(field) { field.value = field.value.toUpperCase() };
+</script>
