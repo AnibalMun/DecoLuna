@@ -96,7 +96,7 @@ if(isset($_POST['cotiza'])){
 								</div>
 							</div>
 							<div style="text-align: center;">
-								<img src="<?=fileBase64($producto_arr["path"])?>" width="50%">
+								<img src="<?=fileBase64($producto_arr["path"])?>" style="max-width:500px">
 							</div>
 						</div>
 						<div class="col-md-6">

@@ -239,14 +239,14 @@ function ObtenerProductosArr(){
         "descripcion" => "Baúl blanco madera y mdf mide 52 de alto x 80 de frente y 45 de fondo",
         "precio" => "105000",
         "precio_old" => "135000",
-        "path" => "img/muebles/17.jpg"
+        "path" => "img/muebles/17.jpeg"
     );
 
     $arr_productos[18] = array(
         "nombre" => "Banca estilo vintage madera",
         "descripcion" => "Banca estilo vintage madera",
-        "precio" => "?",
-        "precio_old" => "?",
+        "precio" => "55000",
+        "precio_old" => "62000",
         "path" => "img/muebles/18.jpg"
     );
 
@@ -263,7 +263,7 @@ function ObtenerProductosArr(){
         "descripcion" => "Rack estilo vintage mide 61 de alto x 125 de frente y 40 de fondo",
         "precio" => "110000",
         "precio_old" => "170000",
-        "path" => "img/muebles/20.jpg"
+        "path" => "img/muebles/20.jpeg"
     );
 
     $arr_productos[21] = array(
@@ -309,16 +309,16 @@ function ObtenerProductosArr(){
     $arr_productos[26] = array(
         "nombre" => "Baúl café",
         "descripcion" => "Baúl café",
-        "precio" => "?",
-        "precio_old" => "?",
+        "precio" => "110000",
+        "precio_old" => "118000",
         "path" => "img/muebles/26.jpg"
     );
 
     $arr_productos[27] = array(
         "nombre" => "Velador vintage",
         "descripcion" => "Velador estilo vintage lámina",
-        "precio" => "?",
-        "precio_old" => "?",
+        "precio" => "75000",
+        "precio_old" => "79000",
         "path" => "img/muebles/27.jpg"
     );
 
@@ -351,16 +351,105 @@ function ObtenerProductosArr(){
         "descripcion" => "Rack blanco láminas mide 61 de alto x 125 de frente y 40 de fondo",
         "precio" => "110000",
         "precio_old" => "170000",
-        "path" => "img/muebles/31.jpg"
+        "path" => "img/muebles/31.jpeg"
     );
 
     $arr_productos[32] = array(
         "nombre" => "Velador 2 repisas",
         "descripcion" => "Velador 2 repisas blanco mide 63 de alto x 38 de frente y 32 de fondo",
-        "precio" => "?",
-        "precio_old" => "?",
+        "precio" => "48000",
+        "precio_old" => "57000",
         "path" => "img/muebles/32.jpg"
     );
+
+    $arr_productos[33] = array(
+        "nombre" => "Mini Bar",
+        "descripcion" => "Mini Bar, mide 1,17 de alto x 33.8 de frente y 29 de fondo",
+        "precio" => "60000",
+        "precio_old" => "79000",
+        "path" => "img/muebles/33.jpeg"
+    );
+
+    $arr_productos[34] = array(
+        "nombre" => "Velador dos repisas",
+        "descripcion" => "Velador dos repisas mide 63 de alto x 40 de frente y 35 de fondo",
+        "precio" => "63000",
+        "precio_old" => "75000",
+        "path" => "img/muebles/34.jpeg"
+    );
+
+    $arr_productos[35] = array(
+        "nombre" => "Mini Bar blanco decapado",
+        "descripcion" => "Mini Bar blanco decapado mide 1.17 de alto x 33.8 de frente y 29 de fondo",
+        "precio" => "64000",
+        "precio_old" => "72000",
+        "path" => "img/muebles/35.jpeg"
+    );
+
+    $arr_productos[36] = array(
+        "nombre" => "Bar esquinero",
+        "descripcion" => "Bar esquinero mide 1.18 de alto x 62 de frente y 29 de fondo",
+        "precio" => "85000",
+        "precio_old" => "96000",
+        "path" => "img/muebles/36.jpeg"
+    );
+
+    $arr_productos[37] = array(
+        "nombre" => "Bar recto",
+        "descripcion" => "Bar recto mide 1.15 de alto x 61.8 de frente y 29 de fondo",
+        "precio" => "100000",
+        "precio_old" => "119000",
+        "path" => "img/muebles/37.jpeg"
+    );
+
+    $arr_productos[38] = array(
+        "nombre" => "Mesa teléfono",
+        "descripcion" => "Mesa teléfono mide 78 de alto x 27 de frente y 25 de fondo",
+        "precio" => "50000",
+        "precio_old" => "55000",
+        "path" => "img/muebles/38.jpeg"
+    );
+
+    $arr_productos[39] = array(
+        "nombre" => "Mini Bar blanco",
+        "descripcion" => "Mini Bar blanco decapado mide 78 de alto x 27 de frente y 25 de fondo",
+        "precio" => "55000",
+        "precio_old" => "62000",
+        "path" => "img/muebles/39.jpeg"
+    );
+
+    $arr_productos[40] = array(
+        "nombre" => "Mueble baño",
+        "descripcion" => "Mueble baño mide 1 15 de alto x 34 de frente y 28 de fondo",
+        "precio" => "65000",
+        "precio_old" => "69000",
+        "path" => "img/muebles/40.jpeg"
+    );
+
+    $arr_productos[41] = array(
+        "nombre" => "Bar recto",
+        "descripcion" => "Bar recto alto mide 1.54 de alto x 61.8 de frente y 29 de fondo",
+        "precio" => "120000",
+        "precio_old" => "127000",
+        "path" => "img/muebles/41.jpeg"
+    );
+
+    $arr_productos[42] = array(
+        "nombre" => "Bar esquinero",
+        "descripcion" => "Bar esquinero alto mide 1.58 de alto x 62 de frente y 29 de fondo. (Laterales de 47)",
+        "precio" => "110000",
+        "precio_old" => "118000",
+        "path" => "img/muebles/42.jpeg"
+    );
+
+    $arr_productos[43] = array(
+        "nombre" => "Bar recto alto",
+        "descripcion" => "Bar recto alto blanco decapado Mide 1.54 de alto x 62 de frente y 29 de fondo",
+        "precio" => "130000",
+        "precio_old" => "138000",
+        "path" => "img/muebles/43.jpeg"
+    );
+
     return $arr_productos;
 }
 
