@@ -8,11 +8,11 @@ function EnviarMail($mail_to,$copy_to,$hidden_to,$subject,$message_html,$message
 	$mail = new Phpmailer();
 	$mail->CharSet = 'UTF-8';
 	$mail->IsSMTP();
-	$debug=true;
+	/*$debug=true;
 	if($debug){
 		$mail->SMTPDebug = 2;
 		$mail->Debugoutput = 'html';	
-	}
+	}*/
 	
 	$mail->SMTPOptions = array(
 		'ssl' => array(
