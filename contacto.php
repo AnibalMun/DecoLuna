@@ -7,34 +7,57 @@ $telefono 	= isset($_POST['telefono'])?$_POST['telefono']:"";
 $mensaje 	= isset($_POST['mensaje'])?$_POST['mensaje']:"";
 
 if(isset($_POST['cotiza'])){
-	
-	if($nombre!="" && $mail!=""){
-		$mueble_adjunto="";//$producto_arr["path"];
-		$copy_to=$mail;
-		$mail_to = 'contacto@lunadeco.cl';
-		$asunto_correo = 'Consulta de '.$nombre;
-		$mensaje_correo = file_get_contents('plantilla_consulta_gral.html');
-		$mensaje_correo = str_replace ('{NOMBRE}', $nombre, $mensaje_correo);
-		$mensaje_correo = str_replace ('{MAIL}', $mail, $mensaje_correo);
-		$mensaje_correo = str_replace ('{FONO}', $telefono, $mensaje_correo);
-		$mensaje_correo = str_replace ('{MENSAJE}', $mensaje, $mensaje_correo);
-		$mensaje_correo = str_replace ('{ANIO}', date("Y"), $mensaje_correo);
-		//die($mensaje_correo);
+
+	$captcha = $_POST ['g-recaptcha-response'];
+    $secret = "6LchJCkfAAAAAL8D-HwiCtpW_RJxJu2SO0PS2bMi";
+
+	if($captcha){
+
+        $response = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=".$secret."&response=".$captcha);
+        $arr_response = json_decode($response, true);
+
+        if($arr_response["success"]){
+
+			if($nombre!="" && $mail!=""){
+				$mueble_adjunto="";//$producto_arr["path"];
+				$copy_to=$mail;
+				$mail_to = 'contacto@lunadeco.cl';
+				$asunto_correo = 'Consulta de '.$nombre;
+				$mensaje_correo = file_get_contents('plantilla_consulta_gral.html');
+				$mensaje_correo = str_replace ('{NOMBRE}', $nombre, $mensaje_correo);
+				$mensaje_correo = str_replace ('{MAIL}', $mail, $mensaje_correo);
+				$mensaje_correo = str_replace ('{FONO}', $telefono, $mensaje_correo);
+				$mensaje_correo = str_replace ('{MENSAJE}', $mensaje, $mensaje_correo);
+				$mensaje_correo = str_replace ('{ANIO}', date("Y"), $mensaje_correo);
+				//die($mensaje_correo);
+				
+				$ok=EnviarMail($mail_to,$copy_to,'anibalmunoz.ing@gmail.com;raularaos1@hotmail.com',$asunto_correo,$mensaje_correo,$message_alt,$Attachment='','LunaDeco '.'('.$nombre.')',$mueble_adjunto);
+				if($ok=="si"){
+					echo '<script>';
+					echo 'alert("Su mensaje ha sido enviado, nos contactaremos con usted a la brevedad")';
+					echo '</script>';
+				}else{
+					echo '<script>';
+					echo 'alert("No se ha podido enviar su consulta, favor reintentar o comunicarse al correo electrónico contacto@lunadeco.cl")';
+					echo '</script>';
+				}
+			}else{
+				echo '<script>';
+				echo 'alert("Ingrese su Nombre y Correo Electrónico para poder consultar")';
+				echo '</script>';
+			}
 		
-		$ok=EnviarMail($mail_to,$copy_to,'anibalmunoz.ing@gmail.com;raularaos1@hotmail.com',$asunto_correo,$mensaje_correo,$message_alt,$Attachment='','LunaDeco '.'('.$nombre.')',$mueble_adjunto);
-		if($ok=="si"){
-			echo '<script>';
-			echo 'alert("Su mensaje ha sido enviado, nos contactaremos con usted a la brevedad")';
-			echo '</script>';
 		}else{
 			echo '<script>';
-			echo 'alert("No se ha podido enviar su consulta, favor reintentar o comunicarse al correo electrónico contacto@lunadeco.cl")';
-			echo '</script>';
+				echo 'alert("Captcha Inválido")';
+				echo '</script>';
 		}
-	}else{
+	}
+	else
+	{
 		echo '<script>';
-		echo 'alert("Ingrese su Nombre y Correo Electrónico para poder consultar")';
-		echo '</script>';
+				echo 'alert("Favor validar Captcha")';
+				echo '</script>';
 	}
 }
 ?>
@@ -84,6 +107,9 @@ if(isset($_POST['cotiza'])){
 														<p class="c-product-meta-label c-product-margin-2 c-font-uppercase c-font-bold">Comentario:</p>
 														<textarea name="mensaje" class="form-control" rows="10" cols="10" style="width: 100%;" placeholder="Solicite este producto o envíenos sus dudas, le contactaremos"><?=$mensaje?></textarea>
 													</div>
+												</div>
+												<div class="col-sm-10 col-xs-12">
+													<div class="g-recaptcha form-control" data-sitekey="6LchJCkfAAAAAAbu4iJfBhL04Pv-Zhd0hR_xJk80"></div>
 												</div>
 												<div class="col-sm-12 col-xs-12 c-margin-t-20">
 													<button type="submit" name="cotiza" class="btn c-btn btn-lg c-font-bold c-font-white c-theme-btn c-btn-square c-font-uppercase">Enviar Consulta</button>

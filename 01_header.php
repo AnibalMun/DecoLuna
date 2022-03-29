@@ -34,6 +34,7 @@
     <link href="assets/demos/index/css/custom.css" rel="stylesheet" type="text/css" />
     <!-- END THEME STYLES -->
     <link rel="shortcut icon" href="img/lundeco2.ico" />
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 <script>
 function validarEmail(email) {
