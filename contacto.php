@@ -109,7 +109,7 @@ if(isset($_POST['cotiza'])){
 													</div>
 												</div>
 												<div class="col-sm-10 col-xs-12">
-													<div class="g-recaptcha form-control" data-sitekey="6LchJCkfAAAAAAbu4iJfBhL04Pv-Zhd0hR_xJk80"></div>
+													<div class="g-recaptcha" data-sitekey="6LchJCkfAAAAAAbu4iJfBhL04Pv-Zhd0hR_xJk80"></div>
 												</div>
 												<div class="col-sm-12 col-xs-12 c-margin-t-20">
 													<button type="submit" name="cotiza" class="btn c-btn btn-lg c-font-bold c-font-white c-theme-btn c-btn-square c-font-uppercase">Enviar Consulta</button>
