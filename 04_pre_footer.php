@@ -10,6 +10,9 @@
                     <div class="c-right">
                         <h3 class="c-title c-font-uppercase c-font-bold">Buscanos en redes sociales</h3>
                         <div class="c-icons">
+                            <a href="https://www.facebook.com/casa_lunade/" target="_blank" class="c-font-30 c-font-grey-3 socicon-btn c-bg-grey-1-hover socicon-facebook tooltips" data-original-title="facebook" data-container="body"></a>
+                        </div>
+                        <div class="c-icons">
                             <a href="https://www.instagram.com/casa_lunadec/" target="_blank" class="c-font-30 c-font-grey-3 socicon-btn c-bg-grey-1-hover socicon-instagram tooltips" data-original-title="instagram" data-container="body"></a>
                         </div>
                     </div>
